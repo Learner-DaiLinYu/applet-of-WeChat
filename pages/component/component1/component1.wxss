@@ -1,0 +1,5 @@
+/* pages/component/component1/component1.wxss */
+
+button{
+    margin: 2rpx;
+}

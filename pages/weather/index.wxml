@@ -1,0 +1,31 @@
+<view class="page">
+    <view class="top">
+        <input placeholder="输入城市名进行搜索" bindinput="bindKeyInput"></input>
+        <view class="icon">
+            <icon type="search" size="25" bindtap="search"></icon>
+        </view>
+    </view>
+    <view class="body">
+        <view class="city"><text>{{city}}</text></view>
+        <view class="today"><text>{{date}}</text></view>
+        <view>
+            <image src="{{pic}}" mode="aspectFit" style="width: 400rpx;height: 400rpx;"></image>
+        </view>
+    </view>
+    <view class="bottom">
+        <view class="weather"><text>{{weather}}</text></view>
+        <view class="right">
+            <view class="temp"><text>{{temp}}</text></view>
+            <view class="wind"><text>{{wind}}</text></view>
+        </view>
+    </view>
+    <view wx:for="{{list}}" wx:for-item="item">
+        <view class="bottom">
+            <view class="weather">{{item.data}}</view>
+            <view class="weather">{{item.wendu}}</view>
+            <image src="{{item.getpic}}" style="width: 150rpx;height: 100rpx;" />
+            <view class="weather">{{item.wind}}</view>
+        </view>
+    </view>
+
+</view>

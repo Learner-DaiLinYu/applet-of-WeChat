@@ -1,0 +1,5 @@
+/* pages/yaoqinhan/map/index.wxss */
+map{
+    width: 100vh;
+    height: 100vh;
+}

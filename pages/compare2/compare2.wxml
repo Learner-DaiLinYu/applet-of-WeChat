@@ -1,0 +1,14 @@
+<!--pages/compare2/compare2.wxml-->
+<view>
+    <text>输入第一个数:</text>
+    <input type="number" model:value="{{number1}}" bindinput="cheag" data-num="number1"/>
+</view>
+<view>
+    <text>输入第二个数:</text>
+    <input type="number" model:value="{{number2}}" bindinput="cheag" data-num="number2" />
+</view>
+<view>
+    <button bindtap="to">比较</button>
+</view>
+<myfist-components></myfist-components>
+<end></end>
