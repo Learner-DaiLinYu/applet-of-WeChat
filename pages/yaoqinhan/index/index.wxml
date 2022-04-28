@@ -1,0 +1,34 @@
+<view class="container">
+    <image class="bg" src="../images/bg_1.png" />
+    <view class="player player-{{isPlayngMusic?'play':'pause'}}" bindtap="play">
+        <image src="/pages/yaoqinhan/images/music_icon.png"></image>
+        <image src="../images/music_play.png"></image>
+    </view>
+    <view class="content">
+        <image class="content-gif" src="../images/save_the_date.gif"></image>
+        <view class="content-title">邀请函</view>
+        <view class="content-avatar">
+            <image src="../images/avatar.png"></image>
+        </view>
+        <view class="content-info">
+            <view class="content-name" bindtap="callGroom">
+                <image src="../images/tel.png"></image>
+                <view>王辉辉</view>
+                <view>新朗</view>
+            </view>
+            <view class="content-wedding">
+                <image src="../images/wedding.png"></image>
+            </view>
+            <view class="content-name" bindtap="callGroom">
+                <image src="../images/tel.png"></image>
+                <view>张安徽</view>
+                <view>新娘</view>
+            </view>
+        </view>
+        <view class="content-address">
+            <view>我们诚心邀请您来参加我们的婚礼</view>
+            <view>时间: 2028年1月28日</view>
+            <view>地点：南昌市青云谱区八一路宏华酒店</view>
+        </view>
+    </view>
+</view>

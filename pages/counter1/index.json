@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",  
+  "backgroundColor": "#eeeeee", 
+  "navigationBarTitleText": "郭天宇的计算器",
+  "navigationBarTextStyle": "black"
+}
