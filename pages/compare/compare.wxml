@@ -1,0 +1,31 @@
+<!--pages/compare/compare.wxml-->
+<view>
+    <text>请输入一个数数字</text>
+    <input type="number" value="{{number1}}" bindinput="getSearchInput1" id="num1"/>
+    
+</view>
+<view>
+    <text>请输入二个数数字</text>
+    <input type="number" value="{{number2}}" bindinput="getSearchInput2" id="num2"/>
+</view>
+<button bindtap="bigbest">比较</button>
+<view>
+    <text>比较结果：{{text}}</text>
+</view>
+<view>
+    <text>数据1：{{number1}}</text>
+    <text>数据2：{{number2}}</text>
+</view>
+<view>
+    <block wx:if="{{number1!=null&&number2!=null}}">
+        <block wx:if="{{number1>number2}}">
+            <text>第一个数要大</text>
+        </block>
+        <block wx:if="{{number1<number2}}">
+            <text>第二个数要大</text>
+        </block>
+        <block wx:if="{{number1==number2}}">
+            <text>两个数相等</text>
+        </block>
+    </block>
+</view>

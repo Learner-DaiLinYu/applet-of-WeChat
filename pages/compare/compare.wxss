@@ -1,0 +1,12 @@
+/* pages/compare/compare.wxss */
+view{
+    margin: 50rpx;
+}
+input{
+    width: 500rpx;
+    margin-top: 20rpx;
+    border-bottom: 2rpx solid #ccc ;
+}
+button{
+    color: olive
+}

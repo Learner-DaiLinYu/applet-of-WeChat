@@ -1,0 +1,69 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/compare/compare",
+        "pages/compare2/compare2",
+        "pages/component/component1/component1",
+        "pages/settime/index",
+        "pages/settimeto/index",
+        "pages/counter/index",
+        "pages/counter1/index",
+        "pages/player/index",
+        "pages/yaoqinhan/index/index",
+        "pages/yaoqinhan/picture/index",
+        "pages/yaoqinhan/video/index",
+        "pages/yaoqinhan/map/index",
+        "pages/yaoqinhan/guest/index",
+        "pages/weather/index"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "我的小程序",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json",
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "tabBar": {
+        "color": "#ccc",
+        "selectedColor": "#ff4c91",
+        "borderStyle": "white",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/yaoqinhan/index/index",
+                "iconPath": "pages/yaoqinhan/images/invite.png",
+                "selectedIconPath": "pages/yaoqinhan/images/invite.png",
+                "text": "邀请函"
+            },
+            {
+                "pagePath": "pages/yaoqinhan/picture/index",
+                "iconPath": "pages/yaoqinhan/images/marry.png",
+                "selectedIconPath": "pages/yaoqinhan/images/marry.png",
+                "text": "照片"
+            },
+            {
+                "pagePath": "pages/yaoqinhan/video/index",
+                "iconPath": "pages/yaoqinhan/images/video.png",
+                "selectedIconPath": "pages/yaoqinhan/images/video.png",
+                "text": "美好时光"
+            },
+            {
+                "pagePath": "pages/yaoqinhan/map/index",
+                "iconPath": "pages/yaoqinhan/images/map.png",
+                "selectedIconPath": "pages/yaoqinhan/images/map.png",
+                "text": "婚礼地点"
+            },
+            {
+                "pagePath": "pages/yaoqinhan/guest/index",
+                "iconPath": "pages/yaoqinhan/images/guest.png",
+                "selectedIconPath": "pages/yaoqinhan/images/guest.png",
+                "text": "宾客信息"
+            }
+        ]
+    }
+}

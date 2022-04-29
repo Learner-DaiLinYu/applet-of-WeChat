@@ -1,0 +1,2 @@
+<!--pages/settimeto/index.wxml-->
+<text>当前时间是 {{time.hour}}：{{time.minute}}：{{time.second}} </text>

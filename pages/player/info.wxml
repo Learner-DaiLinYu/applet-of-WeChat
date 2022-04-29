@@ -1,0 +1,53 @@
+<scroll-view class="content-info" scroll-y>
+    <swiper class="content-info-slide" indicator-color="rgba(255,255,255,.5)" indicator-active-color="#fff" indicator-dots ciecular autoplay>
+        <swiper-item>
+            <image src="imgs/4.jpg" />
+        </swiper-item>
+        <swiper-item>
+            <image src="imgs/qw.jpg" />
+        </swiper-item>
+    </swiper>
+    <view class="content-info-portal">
+        <view>
+            <image src="img/04.png" />
+            <text>私人FM</text>
+        </view>
+        <view>
+            <image src="img/05.png" />
+            <text>每日音乐推荐</text>
+        </view>
+        <view>
+            <image src="img/06.png" />
+            <text>云音乐热歌榜</text>
+        </view>
+    </view>
+    <view class="content-info-list">
+        <view class="list-title">推荐音乐</view>
+        <view class="list-inner">
+            <view class="list-item">
+                <image src="imgs/qw.jpg" />
+                <view>人世间</view>
+            </view>
+            <view class="list-item">
+                <image src="imgs/qw.jpg" />
+                <view>人世间</view>
+            </view>
+            <view class="list-item">
+                <image src="imgs/qw.jpg" />
+                <view>人世间</view>
+            </view>
+            <view class="list-item">
+                <image src="imgs/qw.jpg" />
+                <view>人世间</view>
+            </view>
+            <view class="list-item">
+                <image src="imgs/qw.jpg" />
+                <view>人世间</view>
+            </view>
+            <view class="list-item">
+                <image src="imgs/qw.jpg" />
+                <view>人世间</view>
+            </view>
+        </view>
+    </view>
+</scroll-view>

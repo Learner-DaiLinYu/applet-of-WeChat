@@ -1,0 +1,8 @@
+<!--pages/settime/index.wxml-->
+<view>
+    <button bindtap="kaisi">开始计时</button>
+    <input type="text" value="{{time}}"/>
+</view>
+<view>
+    <button bindtap="topage">页面跳转</button>
+</view>

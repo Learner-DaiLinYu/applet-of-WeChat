@@ -1,0 +1,33 @@
+<view class="tab">
+    <!-- tab响应滑块切换的样式 -->
+    <view class="tab-item {{item==0?'active':''}}" bindtap="changeItem" data-item="0">音乐推荐</view>
+    <view class="tab-item {{item==1?'active':''}}" bindtap="changeItem" data-item="1">播放器</view>
+    <view class="tab-item {{item==2?'active':''}}" bindtap="changeItem" data-item="2">播放列表</view>
+</view>
+<view class="content">
+    <!-- current 代表当前页的位置    bindchange监听滑块的切换-->
+    <swiper current="{{item}}" bindchange="changeTab">    
+        <swiper-item>
+            <include src="info.wxml"/>
+        </swiper-item>
+        <swiper-item>
+            <include src="play.wxml"/>
+        </swiper-item>
+        <swiper-item>
+            <include src="playlist.wxml"/>
+        </swiper-item>
+    </swiper>
+</view>
+<view class="player">
+    <image class="player-cover" src="{{play.coverImgUrl}}" bindtap="toplay"/>
+    <view class="player-info">
+        <view class="player-info-title">{{play.title}}</view>
+        <view class="player-info-singer">{{play.singer}}</view>
+    </view>
+    <view class="player-controls">
+        <image src="img/01.png"/>
+        <image wx:if="{{state=='paused'}}" src="img/02.png" bindtap="play"/>
+        <image wx:else src="img/02stop.png" bindtap="pause"/>
+        <image src="img/03.png" bindtap="next"/>
+    </view>
+</view>

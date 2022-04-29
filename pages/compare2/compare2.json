@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "myfist-components":"/pages/component/component1/component1",
+    "end":"/pages/component/tabbar/tabbar"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",  
+  "backgroundColor": "#eeeeee", 
+  "navigationBarTitleText": "数据比较2",
+  "navigationBarTextStyle": "black"
+}

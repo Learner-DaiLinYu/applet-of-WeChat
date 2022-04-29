@@ -1,0 +1,7 @@
+<!--pages/component/component1/component1.wxml-->
+<view class="end">
+    <button>首页</button>
+    <button>介绍</button>
+    <button>购物</button>
+    <button>个人中心</button>
+</view>
