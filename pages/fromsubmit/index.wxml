@@ -1,0 +1,30 @@
+<!--pages/fromsubmit/index.wxml-->
+<view class="container">
+    <form bindsubmit="submit">
+        <view>
+            <text>姓名：</text>
+            <input type="text" name="name" bindblur="nameChange"/>
+        </view>
+        <view>
+            <text>性别：</text>
+            <radio-group name="gender">
+                <label><radio value="0" checked>男</radio></label>
+                <label><radio value="1">女</radio></label>
+            </radio-group>
+        </view>
+        <view>
+            <text>专业技能</text>
+            <checkbox-group name="skills">
+            <label><checkbox value="html" checked>HTML</checkbox></label>
+            <label><checkbox value="css" checked>CSS</checkbox></label>
+            <label><checkbox value="js">JavaScript</checkbox></label>
+            <label><checkbox value="ps">Photoshop</checkbox></label>
+            </checkbox-group>
+        </view>
+        <view>
+            <text>您的意见：</text>
+            <textarea name="opinion" placeholder="输入你的意见"></textarea>
+        </view>
+        <button form-type="submit">提交</button>
+    </form>
+</view>
