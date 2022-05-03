@@ -18,6 +18,7 @@
     </block>
   </view>
   <view class="usermotto">
+    <button bindtap="toholleword10">登入验证</button>
     <button bindtap="toholleword9">表单提交</button>
     <button bindtap="toholleword8">天气</button>
     <button bindtap="toholleword7">婚礼邀请函</button>

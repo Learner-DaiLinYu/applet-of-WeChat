@@ -16,7 +16,9 @@
         "pages/yaoqinhan/map/index",
         "pages/yaoqinhan/guest/index",
         "pages/weather/index",
-        "pages/fromsubmit/index"
+        "pages/fromsubmit/index",
+        "pages/welcome/index",
+        "pages/login/index"
     ],
     "window": {
         "backgroundTextStyle": "light",

@@ -30,7 +30,36 @@ Page({
             skills: e.detail.value.skills
         }
         if(this.checkName(user.name)){
-            console.log(user)
+            wx.request({
+              url: 'http://localhost:8080/zhuce',
+              method:'GET',
+              data:user,
+              header: {
+                'content-type': 'application/json' // 默认值
+              },
+              success (res) {
+                  console.log(res.data.code)
+                if(res.data.code==="200"){
+                    wx.showToast({
+                        title: res.data.message,
+                        icon:'success',
+                        duration: 2000,
+                        success(){
+                            setTimeout(()=>{
+                                wx.navigateTo({
+                                    url: '../welcome/index',
+                                })
+                            },1000)
+                        }
+                    })
+                }else{
+                    wx.showToast({
+                        title: res.data.message,
+                        icon:'error'
+                      })
+                }
+              }
+            })
         }
     }
 })

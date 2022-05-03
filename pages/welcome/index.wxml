@@ -1,0 +1,8 @@
+<!--pages/welcome/index.wxml-->
+<text>成功提交</text>
+<br/>
+<text>用户数据</text>
+<view wx:for="{{names}}" wx:for-item="item" wx:key="index">
+    <br/>
+    <text>{{index}}:{{item}}</text>
+</view>

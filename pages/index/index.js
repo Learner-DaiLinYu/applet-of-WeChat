@@ -74,6 +74,11 @@ Page({
       url: '../fromsubmit/index',
     })
   },
+  toholleword10(){
+    wx.navigateTo({
+      url: '../login/index',
+    })
+  },
   toholleword8(){
     wx.navigateTo({
       url: '../weather/index',
