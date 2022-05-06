@@ -1,1 +1,7 @@
 /* pages/login/index.wxss */
+.user{
+    width: 300rpx;
+    height: 300rpx;
+    margin-left: 210rpx;
+    text-align: center;
+}

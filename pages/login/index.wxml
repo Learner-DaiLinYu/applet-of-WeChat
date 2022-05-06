@@ -1,4 +1,13 @@
 <!--pages/login/index.wxml-->
 <view>
     <button bindtap="login">用户登入</button>
+    <button bindtap="getUsermessage" wx:if="{{islogin}}">获取授权信息</button>
+</view>
+<view wx:if="{{getUserinfo}}" class="user">
+    <open-data class="img" type="userAvatarUrl"></open-data>
+    <open-data type="userNickName" ></open-data>
+    <view>
+        <text wx:if="{{!sex}}">男</text>
+        <text wx:else>女</text>
+    </view>
 </view>
